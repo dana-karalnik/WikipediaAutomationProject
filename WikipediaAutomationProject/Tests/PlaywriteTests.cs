@@ -74,7 +74,7 @@ namespace WikipediaAutomationProject.Tests
 
             Test.Info("Validate color changed");
             bool changed = await playwrightPage.IsPageWithSpecificColor(ColorOptions.Dark);
-            Assert.That(changed, Is.True, "Failed to set or validate Dark color theme in Color (beta) control.");
+            Assert.That(changed, Is.True, "Failed to set or validate Dark color theme in Color (beta) control");
         }
     }
 }

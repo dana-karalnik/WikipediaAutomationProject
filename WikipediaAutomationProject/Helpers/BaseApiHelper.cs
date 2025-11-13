@@ -1,8 +1,4 @@
-﻿using System;
-using System.Net.Http;
-using System.Threading.Tasks;
-
-namespace WikipediaAutomationProject.Helpers.Api
+﻿namespace WikipediaAutomationProject.Helpers.Api
 {
     public class BaseApiHelper
     {

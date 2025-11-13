@@ -1,15 +1,10 @@
 ﻿using HtmlAgilityPack;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using WikipediaAutomationProject.Helpers.Utils;
 
 namespace WikipediaAutomationProject.Infrastructure.Services
 {
     internal class WikiContentParser
-    {     
+    {
         /// <summary>
         /// Extracts relevant text content (paragraphs and lists) from Wikipedia HTML,
         /// after cleaning up footnotes and reference lists.

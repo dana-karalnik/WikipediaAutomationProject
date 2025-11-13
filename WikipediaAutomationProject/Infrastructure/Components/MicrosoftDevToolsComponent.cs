@@ -1,13 +1,12 @@
-﻿using System.Collections.Generic;
-using System.Threading.Tasks;
-using Microsoft.Playwright;
+﻿using Microsoft.Playwright;
 
 namespace WikipediaAutomationProject.Components
 {
     public class MicrosoftDevToolsComponent : BaseComponent
     {
-        public MicrosoftDevToolsComponent(IPage page) : base(page, "xpath=//div[contains(@aria-labelledby,'Microsoft') and contains(@aria-labelledby,'development') and contains(@aria-labelledby,'tools')]") { }
-       
+        public MicrosoftDevToolsComponent(IPage page)
+            : base(page, "xpath=//div[contains(@aria-labelledby,'Microsoft') and contains(@aria-labelledby,'development') and contains(@aria-labelledby,'tools')]") { }
+
         /// <summary>
         /// Finds all technology elements
         /// </summary>
@@ -16,7 +15,5 @@ namespace WikipediaAutomationProject.Components
         {
             return Find("td li [title]");
         }
-
-
     }
 }

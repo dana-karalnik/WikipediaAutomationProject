@@ -1,11 +1,5 @@
-using System;
-using System.Linq;
-using System.Text.RegularExpressions;
-using System.Threading.Tasks;
 using Newtonsoft.Json.Linq;
-using HtmlAgilityPack;
 using WikipediaAutomationProject.Infrastructure.Constants;
-using WikipediaAutomationProject.Helpers.Utils;
 using WikipediaAutomationProject.Infrastructure.Services;
 
 namespace WikipediaAutomationProject.Helpers.Api

@@ -1,6 +1,4 @@
 ﻿using AventStack.ExtentReports;
-using System;
-using System.Threading.Tasks;
 
 namespace WikipediaAutomationProject.Helpers
 {

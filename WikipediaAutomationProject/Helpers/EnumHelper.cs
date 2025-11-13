@@ -1,7 +1,6 @@
 ﻿using System.Reflection;
 using DescriptionAttribute = System.ComponentModel.DescriptionAttribute;
 
-
 namespace WikipediaAutomationProject.Helpers
 {
     public static class EnumHelper

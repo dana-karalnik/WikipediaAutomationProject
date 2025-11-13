@@ -4,11 +4,11 @@ using WikipediaAutomationProject.Infrastructure.Enums;
 
 public class ColorComponent : BaseAppearanceComponent
 {
-
     public ColorComponent(IPage page)
         : base(page, "#skin-client-prefs-skin-theme")
     {
     }
+
     /// <summary>
     /// Click on specific color
     /// </summary>

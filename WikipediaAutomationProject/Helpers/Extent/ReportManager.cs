@@ -1,7 +1,5 @@
 using AventStack.ExtentReports;
 using AventStack.ExtentReports.Reporter;
-using System;
-using System.IO;
 
 namespace WikipediaAutomationProject.Helpers.Extent
 {

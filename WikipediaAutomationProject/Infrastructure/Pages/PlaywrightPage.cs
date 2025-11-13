@@ -4,7 +4,6 @@ using WikipediaAutomationProject.Helpers;
 using WikipediaAutomationProject.Infrastructure.Constants;
 using WikipediaAutomationProject.Infrastructure.Enums;
 using WikipediaAutomationProject.Pages.Base;
-using System.Threading.Tasks;
 
 namespace WikipediaAutomationProject.Infrastructure.Pages
 {

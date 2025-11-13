@@ -1,10 +1,5 @@
 ﻿using AventStack.ExtentReports;
 using Microsoft.Playwright;
-using NUnit.Framework;
-using System;
-using System.IO;
-using System.Threading.Tasks;
-using WikipediaAutomationProject.Helpers;
 using WikipediaAutomationProject.Helpers.Extent;
 
 namespace WikipediaAutomationProject.Tests

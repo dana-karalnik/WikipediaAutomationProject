@@ -6,7 +6,6 @@ namespace WikipediaAutomationProject.Pages.Base
     {
         protected readonly IPage page;
         protected readonly string url;
-
         protected BasePage(IPage page, string url)
         {
             this.page = page;

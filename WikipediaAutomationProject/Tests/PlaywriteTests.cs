@@ -1,7 +1,4 @@
-﻿using Microsoft.Playwright;
-using NUnit.Framework;
-using WikipediaAutomationProject.Components;
-using WikipediaAutomationProject.Helpers.Api;
+﻿using WikipediaAutomationProject.Helpers.Api;
 using WikipediaAutomationProject.Helpers.Utils;
 using WikipediaAutomationProject.Infrastructure.Constants;
 using WikipediaAutomationProject.Infrastructure.Enums;

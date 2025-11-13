@@ -3,7 +3,7 @@ using WikipediaAutomationProject.Components;
 
 public class BaseSectionComponent : BaseComponent
 {
-    protected String sectionId;
+    protected string sectionId;
 
     public BaseSectionComponent(IPage page, string sectionId)
         : base(page, $"//*[@id='{sectionId}']")

@@ -4,7 +4,7 @@ using WikipediaAutomationProject.Infrastructure.Services;
 
 namespace WikipediaAutomationProject.Helpers.Api
 {
-    public class WikiService : BaseApiHelper
+    public class WikiService : BaseHttpClient
     {
         private const string ParseSectionsQuery = "?action=parse&page={0}&prop=sections&format=json";
         private const string ParseByIndexQuery = "?action=parse&page={0}&prop=text&section={1}&format=json";

@@ -1,10 +1,10 @@
 ﻿namespace WikipediaAutomationProject.Helpers.Api
 {
-    public class BaseApiHelper
+    public class BaseHttpClient
     {
         protected HttpClient Client { get; }
         protected string BaseUrl { get; }
-        public BaseApiHelper(string baseUrl)
+        public BaseHttpClient(string baseUrl)
         {
             this.BaseUrl = baseUrl;
             Client = new HttpClient
